@@ -17,4 +17,4 @@ app.use('/', proxy(url.parse('http://localhost:8675/')));
 app.use('/developers', proxy(url.parse('http://localhost:8111/developers')));
 app.use('/media', proxy(url.parse('http://localhost:8111/media')));
 
-http.createServer(app).listen(3000);
+http.createServer(app).listen(8678);
